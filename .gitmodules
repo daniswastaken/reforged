@@ -1,0 +1,6 @@
+[submodule "reforged-rp"]
+	path = reforged-rp
+	url = https://github.com/daniswastaken/reforged-rp.git
+[submodule "reforged-bp"]
+	path = reforged-bp
+	url = https://github.com/daniswastaken/reforged-bp.git
