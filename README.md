@@ -7,5 +7,5 @@ This license covers all files in this repository including codes, scripts, logic
 
 For more information, see the [LICENSE](/LICENSE) and [every other LICENSE](honors/licenses/) file.
 
-## [Honors](honors/README.md)
+## Honors
 [![Avatar](honors/static/honor.circles.svg)](/honors/README.md)
