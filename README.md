@@ -1,2 +1,11 @@
-# reforged
+# Reforged
 Your Minecraft reforged in RPG.
+
+## License
+This addon is 100% entirely licensed under the Apache License 2.0.
+This license covers all files in this repository including codes, scripts, logic, and art assets (textures, particles, etc.).
+
+For more information, see the [LICENSE](/LICENSE) and [every other LICENSE](honors/licenses/) file.
+
+## [Honors](honors/README.md)
+[![Avatar](honors/static/honor.circles.svg)](/honors/README.md)

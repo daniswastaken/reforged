@@ -1,0 +1,59 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"daniswastaken"
+		]
+	},
+	"header": {
+		"name": "Reforged",
+		"description": "Your Minecraft reforged in RPG.",
+		"min_engine_version": [
+			1,
+			26,
+			0
+		],
+		"uuid": "523a519f-e507-46aa-9255-255c88927967",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "93fbcb5b-789c-44b9-af12-07ab765faad9",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "data",
+			"uuid": "a7dab0d7-9290-4bcd-851c-2f7bb093c591",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.8.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		},
+		{
+			"uuid": "24fd072d-5072-498d-ba11-89feb7d5775c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
