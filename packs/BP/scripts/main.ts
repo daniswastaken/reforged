@@ -28,10 +28,11 @@ import { world, system } from "@minecraft/server";
 /*
 ** This section is intended for importing other scripts.
 */
-import { initializeStarterKits } from "./starterKit/index"; // Import Starter Kit
-import { initializeDayToDay } from "./dayToDay/index"; // Import Day to Day
-import { initializeSparkles } from "./sparkles/index"; // Import Sparkles
+import { initializeStarterKits } from "./starterKit"; // Import Starter Kit
+import { initializeDayToDay } from "./dayToDay"; // Import Day to Day
+import { initializeSparkles } from "./sparkles"; // Import Sparkles
 import { initializeTrailingTrails } from "./trailingTrails"; // Import Trailing Trails
+import { initializeColdBreath } from "./coldBreath"; // Import Cold Breath
 
 /*
 ** This section is intended for initializing and running all previously
@@ -41,3 +42,4 @@ initializeStarterKits();
 initializeDayToDay();
 initializeSparkles();
 initializeTrailingTrails();
+initializeColdBreath();
