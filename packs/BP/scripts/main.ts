@@ -30,7 +30,8 @@ import { world, system } from "@minecraft/server";
 */
 import { initializeStarterKits } from "./starterKit/index"; // Import Starter Kit
 import { initializeDayToDay } from "./dayToDay/index"; // Import Day to Day
-import { initializeSparkles } from "./sparkles/index"; // Import Sparkles 
+import { initializeSparkles } from "./sparkles/index"; // Import Sparkles
+import { initializeTrailingTrails } from "./trailingTrails"; // Import Trailing Trails
 
 /*
 ** This section is intended for initializing and running all previously
@@ -39,3 +40,4 @@ import { initializeSparkles } from "./sparkles/index"; // Import Sparkles
 initializeStarterKits();
 initializeDayToDay();
 initializeSparkles();
+initializeTrailingTrails();
