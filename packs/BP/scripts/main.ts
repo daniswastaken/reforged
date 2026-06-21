@@ -1,5 +1,5 @@
 /*
-** 2026-06-20
+** 2026-06-21
 **
 ** In place of a legal notice, here is a blessing:
 **
@@ -28,10 +28,12 @@ import { world, system } from "@minecraft/server";
 /*
 ** This section is intended for importing other scripts.
 */
-import { initializeStarterKits } from "./starterKit/index"; // Import starter kits
+import { initializeStarterKits } from "./starterKit/index"; // Import Starter Kit
+import { initializeDayToDay } from "./dayToDay/index"; // Import Day to Day
 
 /*
 ** This section is intended for initializing and running all previously
 ** imported scripts.
 */
 initializeStarterKits();
+initializeDayToDay();
