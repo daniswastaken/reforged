@@ -30,6 +30,7 @@ import { world, system } from "@minecraft/server";
 */
 import { initializeStarterKits } from "./starterKit/index"; // Import Starter Kit
 import { initializeDayToDay } from "./dayToDay/index"; // Import Day to Day
+import { initializeSparkles } from "./sparkles/index"; // Import Sparkles 
 
 /*
 ** This section is intended for initializing and running all previously
@@ -37,3 +38,4 @@ import { initializeDayToDay } from "./dayToDay/index"; // Import Day to Day
 */
 initializeStarterKits();
 initializeDayToDay();
+initializeSparkles();
