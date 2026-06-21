@@ -1,27 +1,27 @@
 /*
- ** 2026-06-21
- **
- ** In place of a legal notice, here is a blessing:
- **
- **    May you do good and not evil.
- **    May you find forgiveness for yourself and forgive others.
- **    May you share freely, never taking more than you give.
- **
- *************************************************************************
- ** This file contain the scripts used for the better total days played
- ** counter. It works by dividing the total days tick with 24000 to get
- ** the amount of days played. The data later displayed using animation
- ** through Actionbar.
- */
+** 2026-06-21
+**
+** In place of a legal notice, here is a blessing:
+**
+**    May you do good and not evil.
+**    May you find forgiveness for yourself and forgive others.
+**    May you share freely, never taking more than you give.
+**
+*************************************************************************
+** This file contain the scripts used for the better total days played
+** counter. It works by dividing the total days tick with 24000 to get
+** the amount of days played. The data later displayed using animation
+** through Actionbar.
+*/
 
 /*
- **
- ** Honors
- **
- *************************************************************************
- ** daniswastaken
- ** Why Not OSS
- */
+**
+** Honors
+**
+*************************************************************************
+** daniswastaken
+** Why Not OSS
+*/
 
 import { world, system } from "@minecraft/server";
 

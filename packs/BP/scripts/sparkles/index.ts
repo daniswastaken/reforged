@@ -1,3 +1,28 @@
+/*
+** 2026-06-21
+**
+** In place of a legal notice, here is a blessing:
+**
+**    May you do good and not evil.
+**    May you find forgiveness for yourself and forgive others.
+**    May you share freely, never taking more than you give.
+**
+*************************************************************************
+** This file contain the scripts used for spawning the sparkle particles
+** around dropped items. It provide a delay mechanics for a newly
+** dropped item so the particles doesn't trigger instantly for artistic
+** choice. This script also contain a memory leak prevention.
+*/
+
+/*
+**
+** Honors
+**
+*************************************************************************
+** daniswastaken
+** Why Not OSS
+*/
+
 import { world, system } from "@minecraft/server";
 
 export function initializeSparkles() {
