@@ -66,7 +66,7 @@ export function initializeColdBreath() {
             // Biome check
             const biomeId = player.dimension.getBiome(player.location).id;
             const isColdBiome = COLD_BIOMES.includes(biomeId);
-            const isHighAltitude = player.location.y > 120; // Cold at high altitudes
+            const isHighAltitude = player.location.y > 172; // Cold at high altitudes
 
             if (!isColdBiome && !isHighAltitude) continue;
 
