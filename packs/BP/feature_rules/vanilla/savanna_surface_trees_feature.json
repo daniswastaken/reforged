@@ -3,7 +3,7 @@
   "minecraft:feature_rules": {
     "description": {
       "identifier": "minecraft:savanna_surface_trees_feature",
-      "places_feature": "minecraft:legacy:savanna_tree_feature"
+      "places_feature": "wn:void/air"
     },
     "conditions": {
       "placement_pass": "surface_pass",
