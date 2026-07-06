@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.10",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "wn:sv/acacia_tree_scatter"
+        },
+        "features": [
+            [
+                "wn:acacia_tree_1",
+                1
+            ],
+            [
+                "wn:acacia_tree_2",
+                1
+            ],
+            [
+                "wn:acacia_tree_3",
+                1
+            ]
+        ]
+    }
+}
