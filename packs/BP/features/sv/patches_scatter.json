@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.10",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "wn:sv/patches_scatter"
+        },
+        "features": [
+            [
+                "wn:sv/dirt_patch",
+                1
+            ],
+            [
+                "wn:sv/mud_patch",
+                1
+            ],
+            [
+                "wn:sv/rooted_dirt_patch",
+                1
+            ],
+            [
+                "wn:sv/coarse_dirt_patch",
+                1
+            ]
+        ]
+    }
+}

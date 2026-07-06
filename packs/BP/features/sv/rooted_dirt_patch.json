@@ -2,13 +2,13 @@
   "format_version": "1.26.10",
   "minecraft:ore_feature": {
     "description": {
-      "identifier": "wn:sv/mud_patch"
+      "identifier": "wn:sv/rooted_dirt_patch"
     },
     "count": 32,
     "replace_rules": [
       {
         "places_block": {
-          "name": "minecraft:packed_mud"
+          "name": "minecraft:dirt_with_roots"
         },
         "may_replace": [
           "minecraft:grass_block",

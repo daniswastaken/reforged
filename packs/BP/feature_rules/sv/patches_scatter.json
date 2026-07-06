@@ -2,8 +2,8 @@
   "format_version": "1.26.10",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "wn:mud_patch",
-      "places_feature": "wn:sv/mud_patch"
+      "identifier": "wn:patches_scatter",
+      "places_feature": "wn:sv/patches_scatter"
     },
     "conditions": {
       "placement_pass": "first_pass",
@@ -20,7 +20,7 @@
       ]
     },
     "distribution": {
-      "iterations": 0.5,
+      "iterations": 1,
       "x": {
         "distribution": "uniform",
         "extent": [0, 16]
