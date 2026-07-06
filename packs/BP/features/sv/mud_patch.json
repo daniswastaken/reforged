@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.10",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "wn:sv/mud_patch"
+    },
+    "count": 30,
+    "replace_rules": [
+      {
+        "places_block": {
+          "name": "minecraft:packed_mud"
+        },
+        "may_replace": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:sand",
+          "minecraft:coarse_dirt"
+        ]
+      }
+    ]
+  }
+}
