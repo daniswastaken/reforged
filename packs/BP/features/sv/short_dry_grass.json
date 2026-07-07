@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "wn:sv/short_dry_grass"
+        },
+        "places_block": {
+            "name": "minecraft:short_dry_grass"
+        },
+        "enforce_survivability_rules": true,
+        "enforce_placement_rules": false,
+        "may_replace": [
+            "minecraft:air",
+            "minecraft:short_grass",
+            "minecraft:tall_grass"
+        ]
+    }
+}

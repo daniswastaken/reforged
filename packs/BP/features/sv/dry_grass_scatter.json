@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.10",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "wn:sv/dry_grass_scatter"
+        },
+        "features": [
+            [
+                "wn:sv/short_dry_grass",
+                1
+            ],
+            [
+                "wn:sv/tall_dry_grass",
+                1
+            ]
+        ]
+    }
+}
