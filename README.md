@@ -1,5 +1,8 @@
 # Reforged
 Your Minecraft reforged in RPG.
+## Docs
+This add-on use several naming scheme:
+- sv => Savanna
 
 ## License
 This addon is 100% entirely licensed under the Apache License 2.0.
