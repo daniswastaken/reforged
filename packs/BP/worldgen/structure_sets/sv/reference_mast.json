@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "wn:reference_mast"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 11010351,
+      "separation": 7,
+      "spacing": 16,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "wn:reference_mast",
+        "weight": 1
+      }
+    ]
+  }
+}

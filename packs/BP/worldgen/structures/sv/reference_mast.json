@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "wn:reference_mast"
+    },
+    "biome_filters": [
+      {
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "savanna"
+      }
+    ],
+    "step": "underground_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "wn:reference_mast",
+    "max_depth": 7,
+    "max_distance_from_center": 32,
+    "start_height": {
+      "type": "constant", // Use constant, if uniform your structure will spawn on the sky
+      "value": {
+        "absolute": 0
+      },
+      "min": {
+        "absolute": 50
+      },
+      "max": {
+        "absolute": 120
+      }
+    },
+    "heightmap_projection": "world_surface"
+  }
+}
