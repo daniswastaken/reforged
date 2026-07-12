@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "wn:ostrich",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ostrich"
+			},
+			"geometry": {
+				"default": "geometry.ostrich"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#1a1b1a",
+				"overlay_color": "#fcf9d3"
+			}
+		}
+	}
+}

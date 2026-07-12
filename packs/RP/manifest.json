@@ -1,44 +1,29 @@
 {
 	"format_version": 2,
 	"metadata": {
-		"authors": [
-			"daniswastaken"
-		]
+		"authors": ["daniswastaken"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
 	},
 	"header": {
 		"name": "Reforged: Dance of Savanna",
 		"description": "Your Minecraft reforged in RPG.",
-		"min_engine_version": [
-			1,
-			26,
-			0
-		],
+		"min_engine_version": [1, 26, 0],
 		"uuid": "24fd072d-5072-498d-ba11-89feb7d5775c",
-		"version": [
-			1,
-			0,
-			0
-		]
+		"version": [1, 0, 0]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "67591e69-f4f4-4718-b871-7d002e5062fe",
-			"version": [
-				1,
-				0,
-				0
-			]
+			"version": [1, 0, 0]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "523a519f-e507-46aa-9255-255c88927967",
-			"version": [
-				1,
-				0,
-				0
-			]
+			"version": [1, 0, 0]
 		}
 	]
 }
