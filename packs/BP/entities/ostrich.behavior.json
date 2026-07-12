@@ -15,6 +15,7 @@
 			"minecraft:pushable": {
 				"is_pushable": false
 			},
+			"minecraft:scale": { "value": 1.35 },
 			"minecraft:push_through": {
 				"value": 1
 			},

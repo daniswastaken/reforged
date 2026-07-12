@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/ostrich"
+				"default": "textures/entity/adult_ostrich"
 			},
 			"geometry": {
 				"default": "geometry.ostrich"
