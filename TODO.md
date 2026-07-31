@@ -1,2 +1,3 @@
 - [ ] Ostrich walking animation
 - [ ] Ostrich flaps wings animation
+- [ ] Ostrich sounds
